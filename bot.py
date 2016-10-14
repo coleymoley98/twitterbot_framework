@@ -25,7 +25,7 @@ from time import gmtime, strftime
 
 
 # ====== Individual bot configuration ==========================
-bot_username = ''
+bot_username = '@ExposBot'
 logfile_name = bot_username + ".log"
 
 # ==============================================================
@@ -34,7 +34,28 @@ logfile_name = bot_username + ".log"
 def create_tweet():
     """Create the text of the tweet you want to send."""
     # Replace this with your code!
-    text = ""
+    tweetval = random.randint(1, 10)  # Integer from 1 to 10, endpoints included
+    return tweetval
+    if tweetval = 1:
+        text = "1994 World Series Champions"
+    if tweetval = 2:
+        text = "We never relocated"
+    if tweetval = 3:
+        text = "Tim Tebow, future Expo"
+    if tweetval = 4:
+        text = "FYI Bud Sellig hates us"
+    if tweetval = 5:
+        text = "Anglo scum"
+    if tweetval = 6:
+        text = "We never relocated"
+    if tweetval = 7:
+        text = "We never relocated"
+    if tweetval = 8:
+        text = "We never relocated"
+    if tweetval = 9:
+        text = "We never relocated"
+    if tweetval = 10
+        text = "We never relocated"
     return text
 
 
